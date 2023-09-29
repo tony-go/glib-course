@@ -8,7 +8,7 @@ build:
 	make -C build
 
 run:
-	./build/my_app
+	GSETTINGS_SCHEMA_DIR=./build ./build/my_app
 
 clean:
 	rm -rf build

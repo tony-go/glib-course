@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="your_app">
+  <schema id="com.tonygo.app" path="/com/tonygo/app/">
+    <key name="example-key" type="s">
+      <default>'default_value'</default>
+      <summary>An example setting</summary>
+      <description>An example setting for demonstration</description>
+    </key>
+  </schema>
+</schemalist>
